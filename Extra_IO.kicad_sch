@@ -878,10 +878,10 @@
 		(uuid "42c579da-c30f-42bf-8b61-b17fee84c085")
 	)
 	(junction
-		(at 62.23 85.09)
+		(at 58.42 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "317c080d-b1ed-4f6b-9b1a-e45f8a5dd153")
+		(uuid "81302f95-b9a4-497d-a46d-e66d60da6001")
 	)
 	(junction
 		(at 99.06 67.31)
@@ -931,16 +931,6 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 85.09) (xy 86.36 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "220b317c-9691-4c80-8638-7f74bc4a15f5")
-	)
-	(wire
-		(pts
 			(xy 111.76 80.01) (xy 116.84 80.01)
 		)
 		(stroke
@@ -981,6 +971,16 @@
 	)
 	(wire
 		(pts
+			(xy 58.42 85.09) (xy 86.36 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e004c49e-35d3-4d8a-9a07-e02dbccddc2e")
+	)
+	(wire
+		(pts
 			(xy 73.66 77.47) (xy 86.36 77.47)
 		)
 		(stroke
@@ -988,6 +988,16 @@
 			(type default)
 		)
 		(uuid "f9e7602c-6bd0-4992-b8fc-b2c19472ae2e")
+	)
+	(wire
+		(pts
+			(xy 57.15 85.09) (xy 58.42 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbc7090f-fc5f-436f-8fa1-99afec3abe4a")
 	)
 	(global_label "SCL"
 		(shape input)
@@ -1057,7 +1067,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 62.23 92.71 0)
+		(at 58.42 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1066,7 +1076,7 @@
 		(fields_autoplaced yes)
 		(uuid "24ce0eaf-5c4c-43d6-9774-299f7e98beac")
 		(property "Reference" "#PWR037"
-			(at 62.23 99.06 0)
+			(at 58.42 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1075,15 +1085,16 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 62.23 97.79 0)
+			(at 58.42 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 62.23 92.71 0)
+			(at 58.42 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1092,7 +1103,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 62.23 92.71 0)
+			(at 58.42 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1101,7 +1112,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 62.23 92.71 0)
+			(at 58.42 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1214,6 +1225,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -1257,7 +1269,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 62.23 85.09 90)
+		(at 57.15 85.09 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1266,7 +1278,7 @@
 		(fields_autoplaced yes)
 		(uuid "74a2133d-d155-4457-90cc-3b933119cc4d")
 		(property "Reference" "TP1"
-			(at 58.928 80.01 90)
+			(at 53.848 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1274,7 +1286,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 58.928 82.55 90)
+			(at 53.848 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1282,7 +1294,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 62.23 80.01 0)
+			(at 57.15 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1291,7 +1303,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 62.23 80.01 0)
+			(at 57.15 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1300,7 +1312,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 62.23 85.09 0)
+			(at 57.15 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1345,6 +1357,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -1477,6 +1490,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -1658,7 +1672,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 62.23 88.9 180)
+		(at 58.42 88.9 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1667,7 +1681,7 @@
 		(fields_autoplaced yes)
 		(uuid "e30e4f39-0097-4377-8d48-a382c993d1e2")
 		(property "Reference" "R9"
-			(at 64.77 87.6299 0)
+			(at 60.96 87.6299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1676,7 +1690,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 64.77 90.1699 0)
+			(at 60.96 90.1699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1684,8 +1698,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 64.008 88.9 90)
+		(property "Footprint" "PCM_JLCPCB:R_0603"
+			(at 60.198 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1694,7 +1708,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 62.23 88.9 0)
+			(at 58.42 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1703,7 +1717,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 62.23 88.9 0)
+			(at 58.42 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
